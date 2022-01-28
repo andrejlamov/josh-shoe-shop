@@ -1,4 +1,4 @@
-export default Select = ({ label, children }) => {
+export default function Select({ label, children }) {
   return (
     <div>
       <label className="pr-2 text-gray-500">{label}</label>
@@ -7,4 +7,4 @@ export default Select = ({ label, children }) => {
       </div>
     </div>
   );
-};
+}

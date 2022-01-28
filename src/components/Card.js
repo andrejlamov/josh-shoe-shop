@@ -1,4 +1,4 @@
-export default Card = ({ imageSrc, name, price, numOfColors }) => {
+export default function Card({ imageSrc, name, price, numOfColors }) {
   return (
     <div className="flex-1 min-w-[192px]">
       <div className="flex flex-col">
@@ -11,4 +11,4 @@ export default Card = ({ imageSrc, name, price, numOfColors }) => {
       </div>
     </div>
   );
-};
+}

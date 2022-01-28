@@ -1,4 +1,4 @@
-export default NavHeader = () => {
+export default function NavHeader() {
   return (
     <nav className="bg-white px-8 h-[72px] flex items-baseline border-b border-gray-300">
       <span className="py-[20px]"></span>
@@ -19,4 +19,4 @@ export default NavHeader = () => {
       <span className="flex-1"></span>
     </nav>
   );
-};
+}
