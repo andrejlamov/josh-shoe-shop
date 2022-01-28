@@ -1,4 +1,5 @@
 import { ShoppingBagIcon } from "@heroicons/react/solid";
+import SearchInput from "./SearchInput";
 
 export default function SuperHeader() {
   return (
@@ -6,6 +7,7 @@ export default function SuperHeader() {
       <span>Free shipping on domestic orders over $75!</span>
       <span className="mr-auto"></span>
       <div className="flex gap-5 items-center">
+        <SearchInput />
         <a href="#">Help</a>
         <button>
           <ShoppingBagIcon className="h-5 w-5 text-gray-300" />
