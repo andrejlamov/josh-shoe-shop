@@ -3,7 +3,7 @@ import ShoeGrid from "./ShoeGrid";
 import Select from "./Select";
 import Sidebar from "./Sidebar";
 
-export default function Board() {
+export default function Main() {
   return (
     <div className="flex flex-col px-8 pt-14 gap-4">
       <header className="flex items-baseline">
